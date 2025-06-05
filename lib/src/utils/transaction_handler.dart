@@ -2,8 +2,8 @@ import 'dart:typed_data';
 
 import 'package:ledger_ethereum/src/model/decoded_transaction.dart';
 import 'package:ledger_flutter/ledger_flutter.dart';
-import 'package:web3dart/crypto.dart';
-import 'package:web3dart/web3dart.dart';
+import 'package:web3dart_plus/crypto.dart';
+import 'package:web3dart_plus/web3dart_plus.dart';
 
 import '../model/decoded_info.dart';
 import 'rlp.dart';

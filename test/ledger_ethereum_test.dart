@@ -3,8 +3,8 @@ import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ledger_ethereum/src/utils/transaction_handler.dart';
 import 'package:ledger_ethereum/src/utils/utils.dart';
-import 'package:web3dart/crypto.dart';
-import 'package:web3dart/web3dart.dart';
+import 'package:web3dart_plus/crypto.dart';
+import 'package:web3dart_plus/web3dart_plus.dart';
 
 void main() {
   test('utils_splitPath', () {
